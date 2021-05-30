@@ -24,7 +24,7 @@ Paste the above requisite in the directory where the current project is saved.
 (It is done so python may discover the linked files as i have linked directly by placing the file in project's directory, you can place them anywhere but make sure to link them by changing their location inside the code).  
   
 #### Function of files
->Worldcoordinates.json - tells python about map locations, it is used here so chloropleth layer of map may highlight the countries based on latitude and longitude.  
+>Worldcoordinates.json - tells python about map locations, it is used here so choropleth layer of map may highlight the countries based on latitude and longitude.  
 >populationstats.csv   - contains the country wise population of the world.(provides population data, since this is an older file you may use updated version from internet). 
 >countries.csv         - contain latitude and longitude of countries(folium markers will be placed on them and click popup will display the population data).  
   
