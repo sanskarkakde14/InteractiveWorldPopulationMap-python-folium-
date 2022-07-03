@@ -26,7 +26,7 @@ def icon_color(country_population):
     elif country_population <= 100000:
         return "darkgreen"
     elif country_population <= 1000000:
-        return "beige"
+        return "yellow"
     elif country_population <= 10000000:
         return  "black"
     elif country_population <= 100000000:
